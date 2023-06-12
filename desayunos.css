@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;600&family=Merriweather:wght@700&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0;
+    background-image: url(imagenes/fondo.jpg);
+    
+    background-repeat: repeat;
+    background-size: contain;
+    background-size: cover;
+   
+    
+}
+
+/*Barra de navegación*/
+
+
+.colornavbar{
+    background-color: rgba(255, 182, 193, 0.418);
+
+}
+
+.anclas{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+
+.anclas:hover{
+    text-decoration: underline;
+    color: rgba(255, 105, 180, 0.587);
+}
+
+.registro{
+    height:20px;
+}
+.registro img{
+    height: 25px;
+   
+}  
+
+
+/*Carrusel*/
+
+.imgCarrusel{
+    height: 530px;
+    object-fit: cover;
+   
+}
+
+
+/*Tarjetas*/
+
+.card{
+    height: 450px;
+    width: 340px;
+    margin-left:80px ;
+    margin-bottom: 40px;
+    
+}
+    
+.card-body{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*Pie de la página*/
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+footer{
+    margin-top: auto;
+}
+
+.grid{
+    background-color:#f0afd57a;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    padding: 2.5 rem 0;
+    color:rgb(29, 28, 29);
+    font-size: 1.1rem;
+    
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+.grid-info{
+    max-width: 90%;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+   
+}
+
+.image-container{
+    display: flex;
+    margin-bottom: 2 rem;
+    align-items: center;
+}
+
+.logo-casa-andrea{
+    object-fit: cover;
+    width: 80px;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 360px;
+}
+.grid-contact-media{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  
+}
+
+.grid-contact-media div ul{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.grid-contact-media div ul li{
+    line-height: 1.5rem;
+}
+
+.grid-icons{
+    display: flex;
+    margin-left: 1.5 rem;
+    
+    cursor: pointer;
+}
+
+.grid-icons{
+    display: flex;
+    cursor: pointer;
+    justify-content:center;
+}
+
+.grid-contact-media div img{
+    width: 40px;
+    margin-left: 1.2 rem;
+    border-radius: 360px;
+}
